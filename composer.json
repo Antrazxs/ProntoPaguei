@@ -1,0 +1,16 @@
+{
+  "name": "antraz/boletos-api",
+  "description": "Checador de Boletos.",
+  "license": "mit",
+  "require": {
+    "telegram-bot/api": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    },
+    "files": [
+      "config/config.php"
+    ]
+  }
+}
